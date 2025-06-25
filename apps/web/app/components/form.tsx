@@ -17,12 +17,14 @@ export default function Form() {
   }
   return (
     <>
-      <h1>Test</h1>
+      <h1 className="text-4xl font-black mb-4">Weather</h1>
       <form onSubmit={handleSubmit}>
-        <input name="city" placeholder="Enter city" required />
-        <button type="submit">Get Weather</button>
+        <input name="city" placeholder="Enter city" required className="border border-zinc-700 px-4 py-2 mr-2" />
+        <button type="submit" className="bg-green-400 px-4 py-2 text-black rounded hover:bg-green-500 cursor-pointer">
+          Submit
+        </button>
       </form>
-      {result && <pre style={{ whiteSpace: "normal" }}>{result}</pre>}
+      {result && <pre className="mt-8 max-w-md">{result}</pre>}
     </>
   );
 }
