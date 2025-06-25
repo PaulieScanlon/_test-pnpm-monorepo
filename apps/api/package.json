@@ -18,16 +18,16 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.3.22",
-    "@mastra/core": "^0.10.5",
-    "@mastra/deployer-vercel": "^0.10.5",
-    "@mastra/libsql": "^0.10.2",
+    "@mastra/core": "^0.10.7",
+    "@mastra/deployer-vercel": "^0.11.0",
+    "@mastra/libsql": "^0.11.0",
     "@mastra/loggers": "^0.10.2",
-    "@mastra/memory": "^0.10.3",
-    "zod": "^3.25.64"
+    "@mastra/memory": "^0.11.0",
+    "zod": "^3.25.67"
   },
   "devDependencies": {
-    "@types/node": "^24.0.1",
-    "mastra": "^0.10.5",
+    "@types/node": "^24.0.4",
+    "mastra": "^0.10.7",
     "typescript": "^5.8.3"
   }
 }
