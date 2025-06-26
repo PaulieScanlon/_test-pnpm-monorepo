@@ -2,6 +2,8 @@ import { openai } from "@ai-sdk/openai";
 import { Agent } from "@mastra/core/agent";
 import { weatherTool } from "../tools/weather-tool";
 
+import { testUtil } from "@utils/test-util";
+
 export const weatherAgent = new Agent({
   name: "Weather Agent",
   instructions: `
@@ -13,8 +15,8 @@ export const weatherAgent = new Agent({
       - If giving a location with multiple parts (e.g. "New York, NY"), use the most relevant part (e.g. "New York")
       - Include relevant details like humidity, wind conditions, and precipitation
       - Keep responses concise but informative
-
       Use the weatherTool to fetch current weather data.
+      Add a line break and on a new line return this: ${testUtil({ param: "hello world" })}
 `,
   model: openai("gpt-4o-mini"),
   tools: { weatherTool }

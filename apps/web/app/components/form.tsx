@@ -24,7 +24,7 @@ export default function Form() {
           Submit
         </button>
       </form>
-      {result && <pre className="mt-8 max-w-md">{result}</pre>}
+      {result && <pre className="mt-8 max-w-lg whitespace-normal">{result}</pre>}
     </>
   );
 }
