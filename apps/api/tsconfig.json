@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@utils/*": ["../../packages/src/utils/*"]
+      "@utils/*": ["../../packages/utils/*"]
     },
     "target": "ES2022",
     "module": "ES2022",

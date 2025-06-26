@@ -1,5 +1,5 @@
 {
-  "name": "some-package",
+  "name": "utils",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,8 @@
   "type": "module",
   "engines": {
     "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@mastra/core": "^0.10.7"
   }
 }
