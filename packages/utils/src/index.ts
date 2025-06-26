@@ -1,2 +1,2 @@
-export * from "./test-util";
-export * from "./inner-tool";
+export { helloWorld } from "./inner-tool";
+export { testUtil } from "./test-util";
