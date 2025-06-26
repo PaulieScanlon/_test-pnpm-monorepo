@@ -24,7 +24,7 @@
     "@mastra/loggers": "^0.10.2",
     "@mastra/memory": "^0.11.0",
     "zod": "^3.25.67",
-    "utils": "1.0.0"
+    "utils": "file:../../packages/utils"
   },
   "devDependencies": {
     "@types/node": "^24.0.4",
