@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --filter api dev & pnpm --filter web dev",
-    "build": "pnpm --filter api build & pnpm --filter web build",
+    "dev": "pnpm --filter utils build && pnpm --filter api dev & pnpm --filter web dev",
+    "build": "pnpm --filter utils build && pnpm --filter api build && pnpm --filter web build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "utils": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
