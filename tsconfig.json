@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
-    "rootDir": "."
-  }
+    "module": "ESNext",
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": ".",
+    "skipLibCheck": true
+  },
+  "include": ["apps/**/*", "packages/**/*"]
 }

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --filter api dev & pnpm --filter web dev",
+    "dev": "pnpm --filter api dev && pnpm --filter web dev",
     "dev:api": "tsx apps/api/src/index.ts",
     "dev:web": "next dev apps/web",
     "build": "pnpm --filter utils build && pnpm --filter cats build && pnpm --filter api build && pnpm --filter web build"

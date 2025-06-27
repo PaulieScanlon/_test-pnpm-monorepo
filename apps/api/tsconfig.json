@@ -5,6 +5,12 @@
     "paths": {
       "utils": ["../../packages/utils/src"],
       "cats": ["../../packages/cats/src"]
-    }
+    },
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES2022",
+    "skipLibCheck": true
   }
 }
