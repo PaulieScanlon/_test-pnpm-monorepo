@@ -7,7 +7,7 @@
     "dev": "pnpm --filter api dev & pnpm --filter web dev",
     "dev:api": "tsx apps/api/src/index.ts",
     "dev:web": "next dev apps/web",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pnpm --filter utils build && pnpm --filter api build && pnpm --filter web build"
   },
   "keywords": [],
   "author": "",
