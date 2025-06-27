@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      utils:
-        specifier: workspace:*
-        version: link:packages/utils
     devDependencies:
       typescript:
         specifier: ^5.8.3

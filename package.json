@@ -13,9 +13,6 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
-  "dependencies": {
-    "utils": "workspace:*"
-  },
   "devDependencies": {
     "typescript": "^5.8.3"
   }
