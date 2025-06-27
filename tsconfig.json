@@ -1,9 +1,5 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
-    "module": "ESNext",
-    "target": "ESNext",
-    "esModuleInterop": true
-  },
-  "include": ["apps/**/*", "packages/**/*"]
+    "rootDir": "."
+  }
 }

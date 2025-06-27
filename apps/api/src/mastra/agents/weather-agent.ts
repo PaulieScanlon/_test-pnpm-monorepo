@@ -3,6 +3,7 @@ import { Agent } from "@mastra/core/agent";
 import { weatherTool } from "../tools/weather-tool";
 
 import { helloWorld, testUtil } from "utils";
+import { testCat } from "cats";
 
 export const weatherAgent = new Agent({
   name: "Weather Agent",
@@ -17,6 +18,7 @@ export const weatherAgent = new Agent({
       - Keep responses concise but informative
       Use the weatherTool to fetch current weather data.
       Add a line break and on a new line return this: ${testUtil({ param: "testUtil" })}
+       Add a line break and on a new line return this: ${testCat()}
       Use the helloWorld tool and include the returned value in your response
 `,
   model: openai("gpt-4o-mini"),
