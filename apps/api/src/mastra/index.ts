@@ -1,6 +1,6 @@
 import { Mastra } from "@mastra/core/mastra";
 import { PinoLogger } from "@mastra/loggers";
-// import { VercelDeployer } from "@mastra/deployer-vercel";
+import { VercelDeployer } from "@mastra/deployer-vercel";
 import { weatherAgent } from "./agents/weather-agent";
 
 export const mastra = new Mastra({
@@ -8,6 +8,6 @@ export const mastra = new Mastra({
   logger: new PinoLogger({
     name: "Mastra",
     level: "info"
-  })
-  // deployer: new VercelDeployer()
+  }),
+  deployer: new VercelDeployer()
 });
