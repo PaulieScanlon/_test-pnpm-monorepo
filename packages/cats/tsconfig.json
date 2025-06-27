@@ -5,7 +5,10 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "declaration": true,
+    "allowJs": true
   },
   "include": ["src/**/*"]
 }
